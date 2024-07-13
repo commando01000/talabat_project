@@ -1,0 +1,8 @@
+@extends('Frontend.layouts.layout')
+
+@section('title', 'home')
+
+@section('content')
+
+
+@endsection
