@@ -129,12 +129,14 @@
 
 .cnrhhY {
     min-height: 185px;
+    height: 100%;
 }
 
 .gnTvXE {
     position: relative;
     border-radius: 10px;
     border: 1px solid rgb(229, 229, 229);
+    display: flex; /* Ensure it uses flexbox */
 }
 
 .cnrhhY .image-container {
@@ -143,23 +145,115 @@
     position: relative;
     border-end-start-radius: 10px;
     border-start-start-radius: 10px;
+    overflow: hidden; /* Ensure the image doesn't overflow */
+}
+
+.cnrhhY .image-container img {
+    object-fit: cover; /* Ensures the image covers the container without squishing */
+    height: 100%;
+    width: 100%;
 }
 
 .cnrhhY .markdown-rich-text-block {
     width: 60%;
-    /* padding: 20px 60px 40px; */
-    padding: 20px 0px 0px 50px;
+    padding: 20px; /* Adjusted for better spacing */
     position: relative;
     text-align: start;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Space out the content vertically */
 }
 
 .cnrhhY .markdown-rich-text-block p.cta-text {
     font-size: 16px;
     font-weight: 500;
-    position: absolute;
-    bottom: 5px;
     color: var(--brand);
     text-align: start;
+    margin-top: auto; /* Ensure it sticks to the bottom */
+}
+
+@media (max-width: 1350px) {
+    .gnTvXE {
+        width: 100% !important;
+    }
+    .categories-section {
+        padding: 0px !important;
+        margin: 0px !important;
+    }
+
+    .categories-section .row {
+        width: 100% !important;
+    }
 }
 
 /* End categories-section */
+
+/* Join us Start CSS */
+.button-module_button__oNg2G.button-module_button-primary__i52py:focus:not(
+        [disabled]
+    ) {
+    box-shadow: 0 0 0 0 var(--mm-color-neutral-0, #fff),
+        0 0 0 3px var(--mm-color-primary-30, #ffcdb2), 0 0 transparent;
+}
+.button-module_button__oNg2G.button-module_button-primary__i52py:active:not(
+        [disabled]
+    ) {
+    background: var(--mm-color-primary-100, #ff5a00);
+}
+
+.button-module_button__oNg2G.button-module_button-primary__i52py {
+    background: var(--mm-color-primary-100, #ff5a00);
+}
+
+.button-module_button__oNg2G {
+    font-size: var(--mm-font-size-m, 1rem);
+    font-weight: 400;
+    line-height: 1.5rem;
+    display: inline-flex;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    align-items: center;
+    justify-content: center;
+    border: 0;
+    line-height: normal;
+    border-radius: 0.5rem;
+    color: var(--mm-color-neutral-0, #fff);
+    transition: 0.15s cubic-bezier(0.4, 0, 0.2, 1);
+    cursor: pointer;
+    position: relative;
+}
+
+.button-module_button__oNg2G.button-module_button-size-sm__cWD2n {
+    -webkit-padding-start: var(--mm-spacing-xs, 0.75rem);
+    padding-inline-start: var(--mm-spacing-xs, 0.75rem);
+    -webkit-padding-end: var(--mm-spacing-xs, 0.75rem);
+    padding-inline-end: var(--mm-spacing-xs, 0.75rem);
+    height: 2rem;
+    min-width: 2rem;
+    font-size: 1rem;
+}
+
+.button-module_button__oNg2G.button-module_button-primary__i52py:hover:not(
+        [disabled]
+    ) {
+    background: var(--mm-color-primary-150, #e65100);
+}
+
+@media (max-width: 600px) {
+    #join_us {
+        width: 100% !important;
+        margin-right: 0px !important;
+        margin-left: 0px !important;
+    }
+}
+/* End Join us End CSS */
+
+/* Cities start CSS */
+
+#cities .card:hover {
+    color: #e65100 !important;
+    cursor: pointer;
+}
+
+/* Cities end CSS */

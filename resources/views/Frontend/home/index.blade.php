@@ -49,18 +49,57 @@
         </div>
     </div>
 
-    <div class="categories-section p-5 m-5 w-100">
+    <div class="categories-section overflow-hidden p-5 m-5">
         <div class="container">
-            <div class="row w-75">
-                <div class="col-md-6">
-                    <div class="gnTvXE cnrhhY h-100 flex-grow-1 d-flex">
-                        <div class="h-100 w-100 d-flex">
-                            <div class="sc-c9721a8-0 plZyw w-100 image-container"><img
-                                    src="{{ asset('images/food.png') }}"
-                                    alt="Food image"></div>
+            <div class="row g-4 flex-wrap m-auto w-75">
+                <div class="col-lg-6 col-md-12">
+                    <div class="gnTvXE cnrhhY d-flex">
+                        <div class="w-100 d-flex">
+                            <div style="background-color: #ED613D" class="sc-c9721a8-0 plZyw w-100 image-container"><img
+                                    class="w-100" src="{{ asset('images/food.png') }}" alt="Food image"></div>
                             <div class="markdown-rich-text-block">
                                 <h3>Food</h3>
                                 <p>Find deals, free delivery, and more from our restaurant partners.</p>
+                                <p class="cta-text">Explore</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12">
+                    <div class="gnTvXE cnrhhY d-flex">
+                        <div class="w-100 d-flex">
+                            <div style="background-color: #00B68D" class="sc-c9721a8-0 plZyw w-100 image-container"><img
+                                    class="w-100" src="{{ asset('images/grocery.png') }}" alt="Food image"></div>
+                            <div class="markdown-rich-text-block">
+                                <h3>Food</h3>
+                                <p>Don't stand in line - order online! Choose from top stores delivering groceries to you.
+                                </p>
+                                <p class="cta-text">Explore</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12">
+                    <div class="gnTvXE cnrhhY d-flex">
+                        <div class="w-100 d-flex">
+                            <div style="background-color: #E93C55" class="sc-c9721a8-0 plZyw w-100 image-container"><img
+                                    class="w-100" src="{{ asset('images/flowers.png') }}" alt="Food image"></div>
+                            <div class="markdown-rich-text-block">
+                                <h3>Food</h3>
+                                <p>Show them you care. We're ready to deliver flowers and chocolates to your loved one.</p>
+                                <p class="cta-text">Explore</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12">
+                    <div class="gnTvXE cnrhhY d-flex">
+                        <div class="w-100 d-flex">
+                            <div style="background-color: #3BA1CE" class="sc-c9721a8-0 plZyw w-100 image-container"><img
+                                    class="w-100" src="{{ asset('images/pharmacy.png') }}" alt="Food image"></div>
+                            <div class="markdown-rich-text-block">
+                                <h3>Food</h3>
+                                <p>Got the sniffles? We’ve got you. Get medicine delivered to you quickly and easily.</p>
                                 <p class="cta-text">Explore</p>
                             </div>
                         </div>
@@ -70,4 +109,114 @@
         </div>
     </div>
 
+    <div id="join_us" class="m-5">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h3 class="text-center">Join us</h3>
+                    <p class="text-center">Be a part of the talabat story.
+                    </p>
+                </div>
+            </div>
+            <div class="row justify-content-center m-auto gy-2 w-100">
+                <div class="col-lg-5 col-md-12">
+                    <div class="gnTvXE cnrhhY d-flex">
+                        <div class="w-100 d-flex">
+                            <div style="background-color: #ED613D" class="sc-c9721a8-0 plZyw w-100 image-container"><img
+                                    class="w-100" src="{{ asset('images/become-a-partner.webp') }}" alt="Food image">
+                            </div>
+                            <div class="markdown-rich-text-block">
+                                <h3>Become a partner</h3>
+                                <p>Build your career
+                                </p>
+                                <div>
+                                    <button
+                                        class="button-module_button__oNg2G button-module_button-primary__i52py button-module_button-size-sm__cWD2n">Find
+                                        out more</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-5 col-md-12">
+                    <div class="gnTvXE cnrhhY d-flex">
+                        <div class="w-100 d-flex">
+                            <div style="background-color: #ED613D" class="sc-c9721a8-0 plZyw w-100 image-container"><img
+                                    class="w-100" src="{{ asset('images/career-with-us.webp') }}" alt="Food image">
+                            </div>
+                            <div class="markdown-rich-text-block">
+                                <h3>Build your career</h3>
+                                <p>Find deals, free delivery, and more from our restaurant partners.</p>
+                                <div>
+                                    <button
+                                        class="button-module_button__oNg2G button-module_button-primary__i52py button-module_button-size-sm__cWD2n">Find
+                                        jobs</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="cities" class="m-5 p-5">
+        <div class="container">
+            <h2>Cities we serve in UAE</h2>
+            <div class="row gy-3">
+                <div class="col-md-4">
+                    <div class="card p-2">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div>
+                                <h3>Ajman</h3>
+                                <p>See more places</p>
+                            </div>
+                            <div>
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card p-2">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div>
+                                <h3>Dubai</h3>
+                                <p>See more places</p>
+                            </div>
+                            <div>
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card justify-content-between p-2">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div>
+                                <h3>Al Ain</h3>
+                                <p>See more places</p>
+                            </div>
+                            <div>
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card justify-content-between p-2">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div>
+                                <h3>Abu Dhabi</h3>
+                                <p>See more places</p>
+                            </div>
+                            <div>
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 @endsection
