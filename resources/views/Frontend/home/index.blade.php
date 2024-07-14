@@ -219,4 +219,26 @@
             </div>
         </div>
     </div>
+
+    <div class="discover-our-new-tablet-app">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <img style="height: 400px" class="" src="{{ asset('images/app_view_iphone_en.png') }}" alt="">
+                </div>
+                <div class="col-md-6 pt-4">
+                    <h1>Discover the new talabat app</h1>
+                    <p>Get what you need, when you need it.</p>
+                    <br>
+                    <div class="w-100 d-flex justify-content-around">
+                        <a href="#"><img class="w-75" src="{{ asset('images/logo_appstore.svg') }}" alt=""></a>
+                        <a href="#"><img class="w-75" src="{{ asset('images/logo_playstore.svg') }}" alt=""></a>
+                        <a href="#"><img class="w-75" src="{{ asset('images/logo_huaweistore1.svg') }}" alt=""></a>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+
+    </div>
 @endsection
