@@ -240,13 +240,6 @@
     background: var(--mm-color-primary-150, #e65100);
 }
 
-@media (max-width: 600px) {
-    #join_us {
-        width: 100% !important;
-        margin-right: 0px !important;
-        margin-left: 0px !important;
-    }
-}
 /* End Join us End CSS */
 
 /* Cities start CSS */
@@ -284,3 +277,31 @@ footer p {
 
 
 /* Discover Our New App End CSS */
+
+/* Media Screens Start */
+
+@media (max-width: 600px) {
+    #join_us {
+        width: 100% !important;
+        margin-right: 0px !important;
+        margin-left: 0px !important;
+    }
+}
+
+@media (max-width: 650px) {
+    .kxELPo {
+        width: 100% !important;
+    }
+}
+
+@media (max-width: 750px) {
+    .address-selector-component {
+        display: none !important;
+    }
+    .discover-our-new-tablet-app {
+        padding-bottom: 50px !important;
+    }
+}
+
+/* Media Screens End */
+

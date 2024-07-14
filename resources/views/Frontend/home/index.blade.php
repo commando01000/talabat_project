@@ -4,13 +4,13 @@
 
 @section('content')
 
-    <div class="banner-section position-relative d-flex align-items-center w-100">
+    <div class="banner-section position-relative d-flex align-items-center w-100 overflow-hidden">
         <div class="banner-left-image">
             <img style="width: 200px" src="{{ asset('images/banner-img-1.webp') }}" alt="salade banner">
         </div>
         <div class="banner-content position-absolute flex flex-column align-items-center text-center">
             <h1 class="mb-4" data-testid="banner-title">Order food online in UAE</h1>
-            <div data-testid="address-selector-component" class="d-flex flex-row">
+            <div data-testid="address-selector-component" class="address-selector-component d-flex flex-row">
                 <div class="sc-21989d75-2 kiLVkU FindLocator w-100 position-relative">
                     <div data-testid="search-box-component"
                         class="form-control w-100 d-flex justify-content-between align-items-center"><img
