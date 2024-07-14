@@ -257,3 +257,24 @@
 }
 
 /* Cities end CSS */
+
+/* Footer Start CSS */
+
+footer {
+    background-color: #262626 !important;
+}
+
+footer a {
+    text-decoration: none !important;
+    color: #999;
+}
+
+footer a:hover {
+    color: #e65100;
+}
+
+footer p {
+    color: #999;
+}
+
+/* Footer End CSS */
