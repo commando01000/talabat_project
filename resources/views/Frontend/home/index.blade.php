@@ -2,6 +2,10 @@
 
 @section('title', 'home')
 
+@php
+    use Illuminate\Support\Str;
+@endphp
+
 @section('content')
 
     <div class="banner-section position-relative d-flex align-items-center w-100 overflow-hidden">
@@ -17,7 +21,7 @@
                             src="{{ asset('images/custom-location-pin.svg') }}" class="pin-img mr-2"
                             alt="pin location"><input type="text" id="search-box-map-first"
                             class="f-16 w-100 ps-1 pe-1 f-m-14" value="" style="border: none; outline: none;"
-                            placeholder="Search for area, street name, landmark..." autocomplete="off"
+                            placeholder="Search by Cuisine, Chef, Truck, or Dish ..." autocomplete="off"
                             data-testid="input-search-box-map-first"><img alt="locate me" data-testid="btn-locate-me"
                             src="{{ asset('images/locate-mp.svg') }}" width="45" class="clickable" height="45"></div>
                 </div>
@@ -58,8 +62,12 @@
                             <div style="background-color: #ED613D" class="sc-c9721a8-0 plZyw w-100 image-container"><img
                                     class="w-100" src="{{ asset('images/food.png') }}" alt="Food image"></div>
                             <div class="markdown-rich-text-block">
-                                <h3>Food</h3>
-                                <p>Find deals, free delivery, and more from our restaurant partners.</p>
+                                <h3>Cuisine</h3>
+                                {{ Str::limit(
+                                    'Howdy offers something for every craving! Explore a vast selection of food vendors, from classic comfort food to unique culinary creations.
+                                                                                                                                                                                                                                                                                                     Discover trending dishes and hidden gems in your area.',
+                                    100,
+                                ) }}
                                 <p class="cta-text">Explore</p>
                             </div>
                         </div>
@@ -71,9 +79,11 @@
                             <div style="background-color: #00B68D" class="sc-c9721a8-0 plZyw w-100 image-container"><img
                                     class="w-100" src="{{ asset('images/grocery.png') }}" alt="Food image"></div>
                             <div class="markdown-rich-text-block">
-                                <h3>Food</h3>
-                                <p>Don't stand in line - order online! Choose from top stores delivering groceries to you.
-                                </p>
+                                <h3>Specials</h3>
+                                {{ Str::limit(
+                                    'Don’t miss out on exclusive deals and exciting offers! Check out the "Specials" section to find limited-time promotions from your favorite food trucks and restaurants',
+                                    100,
+                                ) }}
                                 <p class="cta-text">Explore</p>
                             </div>
                         </div>
@@ -85,8 +95,11 @@
                             <div style="background-color: #E93C55" class="sc-c9721a8-0 plZyw w-100 image-container"><img
                                     class="w-100" src="{{ asset('images/flowers.png') }}" alt="Food image"></div>
                             <div class="markdown-rich-text-block">
-                                <h3>Food</h3>
-                                <p>Show them you care. We're ready to deliver flowers and chocolates to your loved one.</p>
+                                <h3>Chefs & Trucks</h3>
+                                {{ Str::limit(
+                                    'Go beyond the menu! Follow the culinary journeys of your favorite food trucks and chefs. See their latest creations, special menus, and upcoming events, all in one place.',
+                                    100,
+                                ) }}
                                 <p class="cta-text">Explore</p>
                             </div>
                         </div>
@@ -98,8 +111,11 @@
                             <div style="background-color: #3BA1CE" class="sc-c9721a8-0 plZyw w-100 image-container"><img
                                     class="w-100" src="{{ asset('images/pharmacy.png') }}" alt="Food image"></div>
                             <div class="markdown-rich-text-block">
-                                <h3>Food</h3>
-                                <p>Got the sniffles? We’ve got you. Get medicine delivered to you quickly and easily.</p>
+                                <h3>Dietary Preferences</h3>
+                                {{ Str::limit(
+                                    'Howdy empowers you to make informed choices. Indicate any dietary restrictions or preferences you may have to find restaurants and dishes that cater to your needs.',
+                                    100,
+                                ) }}
                                 <p class="cta-text">Explore</p>
                             </div>
                         </div>
@@ -224,18 +240,22 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
-                    <img style="height: 400px" class="" src="{{ asset('images/app_view_iphone_en.png') }}" alt="">
+                    <img style="height: 400px" class="" src="{{ asset('images/app_view_iphone_en.png') }}"
+                        alt="">
                 </div>
                 <div class="col-md-6 pt-4">
                     <h1>Discover the new talabat app</h1>
                     <p>Get what you need, when you need it.</p>
                     <br>
                     <div class="w-100 d-flex justify-content-around">
-                        <a href="#"><img class="w-75" src="{{ asset('images/logo_appstore.svg') }}" alt=""></a>
-                        <a href="#"><img class="w-75" src="{{ asset('images/logo_playstore.svg') }}" alt=""></a>
-                        <a href="#"><img class="w-75" src="{{ asset('images/logo_huaweistore1.svg') }}" alt=""></a>
+                        <a href="#"><img class="w-75" src="{{ asset('images/logo_appstore.svg') }}"
+                                alt=""></a>
+                        <a href="#"><img class="w-75" src="{{ asset('images/logo_playstore.svg') }}"
+                                alt=""></a>
+                        <a href="#"><img class="w-75" src="{{ asset('images/logo_huaweistore1.svg') }}"
+                                alt=""></a>
                     </div>
-                    
+
                 </div>
             </div>
         </div>

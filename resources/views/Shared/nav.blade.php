@@ -1,7 +1,7 @@
 <nav class="navbar p-2 navbar-expand-sm navbar-light bg-light">
     <div class="container w-50">
-        <a class="navbar-brand" href="#"><img class="object-fit-cover" style="width: 120px; height: 50px"
-                src="{{ asset('images/Logo.jpg') }}" alt="logo"></a>
+        <a class="navbar-brand" href="/"><img class="object-fit-cover" style="width: 120px; height: 50px"
+                src="{{ asset('images/Logo-removebg-preview.png') }}" alt="logo"></a>
         <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse"
             data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
             aria-label="Toggle navigation">
@@ -17,7 +17,7 @@
                     <a class="nav-link text-white text-white" href="#">Offers</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-white" href="#">Become a partner</a>
+                    <a class="nav-link text-white" href="{{ route('become-a-partner') }}">Become a partner</a>
                 </li>
                 <li class="nav-item">
                     <a name="" id="" class="btn btn-transparent btn-outline-light" href="#"

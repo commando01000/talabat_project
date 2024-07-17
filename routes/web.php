@@ -8,4 +8,4 @@ Route::get('/', function () {
 
 Route::get('become-a-partner', function () {
     return view('Frontend.become-a-partner.index');
-});
+})->name('become-a-partner');
