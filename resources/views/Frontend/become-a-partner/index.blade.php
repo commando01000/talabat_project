@@ -18,7 +18,7 @@
                 online - your success story begins here
             </p>
 
-            <form class="form">
+            <form class="form shadow-lg">
                 <p class="title">Register </p>
                 <p class="message">Ready to grow your business? </p>
                 <div class="flex">
@@ -71,5 +71,7 @@
 
         </div>
     </div>
-    {{-- @include('Frontend.faqs.index') --}}
+    <div id="faq-section">
+        @include('Frontend.faqs.index')
+    </div>
 @endsection

@@ -109,7 +109,7 @@
                     <div class="gnTvXE cnrhhY d-flex">
                         <div class="w-100 d-flex">
                             <div style="background-color: #3BA1CE" class="sc-c9721a8-0 plZyw w-100 image-container"><img
-                                    class="w-100" src="{{ asset('images/pharmacy.png') }}" alt="Food image"></div>
+                                    class="w-100" src="{{ asset('images/grocery.png') }}" alt="Food image"></div>
                             <div class="markdown-rich-text-block">
                                 <h3>Dietary Preferences</h3>
                                 {{ Str::limit(
