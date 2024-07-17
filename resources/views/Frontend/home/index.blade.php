@@ -65,7 +65,7 @@
                                 <h3>Cuisine</h3>
                                 {{ Str::limit(
                                     'Howdy offers something for every craving! Explore a vast selection of food vendors, from classic comfort food to unique culinary creations.
-                                                                                                                                                                                                                                                                                                     Discover trending dishes and hidden gems in your area.',
+                                                                                                                                                                                                                                                                                                                                     Discover trending dishes and hidden gems in your area.',
                                     100,
                                 ) }}
                                 <p class="cta-text">Explore</p>

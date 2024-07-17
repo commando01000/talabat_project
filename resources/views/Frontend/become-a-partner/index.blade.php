@@ -17,6 +17,7 @@
             <img style="" class="w-100 object-fit-cover" src="{{ asset('images/bg_landing_new_tlb.jpg') }}"
                 alt="Become A Partner">
         </div>
+
         <div class="header-form position-absolute ps-5 ms-5">
             <h1 class="text-white">Grow your business <br>
                 online with <span class="text-white bold">talabat!</span></h1>
@@ -26,8 +27,12 @@
                 online - your success story begins here
             </p>
 
+
             <form class="form" action="{{ route('restaurants.store') }}" method="POST">
                 @csrf
+
+            <form class="form shadow-lg">
+
                 <p class="title">Register </p>
                 <p class="message">Ready to grow your business? </p>
                 <div class="flex">
@@ -83,6 +88,9 @@
             </form>
 
         </div>
+
     </div>
-    {{-- @include('Frontend.faqs.index') --}}
+    <div id="faq-section">
+        @include('Frontend.faqs.index')
+    </div>
 @endsection
