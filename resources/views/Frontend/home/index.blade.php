@@ -147,9 +147,12 @@
                                 </p>
                                 <div>
                                     <button
-                                        class="button-module_button__oNg2G button-module_button-primary__i52py button-module_button-size-sm__cWD2n">Find
-                                        out more</button>
+                                        class="button-module_button__oNg2G button-module_button-primary__i52py button-module_button-size-sm__cWD2n"
+                                        onclick="window.location.href='{{ route('restaurants.create') }}'">
+                                        Find out more
+                                    </button>
                                 </div>
+
                             </div>
                         </div>
                     </div>
