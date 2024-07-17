@@ -532,6 +532,35 @@ footer p {
     }
 }
 
+@media (max-width: 500px) {
+    .form {
+        width: 500px !important;
+        /* translate on x */
+        transform: translateX(-20%) !important;
+    }
+
+    .header-image img {
+        width: 100% !important;
+        height: 100% !important;
+    }
+
+    .header-form h1 {
+        position: relative;
+        right: 60px;
+        bottom: 60px;
+    }
+
+    .header-form p.text-white {
+        position: relative;
+        right: 60px;
+        bottom: 60px;
+    }
+
+    #faq {
+        margin-top: 200px !important;
+    }
+}
+
 /* End form */
 
 /* Become a partner end CSS */
