@@ -65,7 +65,7 @@
                                 <h3>Cuisine</h3>
                                 {{ Str::limit(
                                     'Howdy offers something for every craving! Explore a vast selection of food vendors, from classic comfort food to unique culinary creations.
-                                                                                                                                                                                                                                                                                                     Discover trending dishes and hidden gems in your area.',
+                                                                                                                                                                                                                                                                                                                                                                     Discover trending dishes and hidden gems in your area.',
                                     100,
                                 ) }}
                                 <p class="cta-text">Explore</p>
@@ -178,13 +178,13 @@
 
     <div id="cities" class="m-5 p-5">
         <div class="container">
-            <h2>Cities we serve in UAE</h2>
+            <h2>Howdy Texas: "Howdy Y'all! We Deliver in These Texas Cities:"</h2>
             <div class="row gy-3">
                 <div class="col-md-4">
                     <div class="card p-2">
                         <div class="d-flex justify-content-between align-items-center">
                             <div>
-                                <h3>Ajman</h3>
+                                <h3>Bellaire</h3>
                                 <p>See more places</p>
                             </div>
                             <div>
@@ -197,7 +197,7 @@
                     <div class="card p-2">
                         <div class="d-flex justify-content-between align-items-center">
                             <div>
-                                <h3>Dubai</h3>
+                                <h3>Cypress</h3>
                                 <p>See more places</p>
                             </div>
                             <div>
@@ -210,7 +210,7 @@
                     <div class="card justify-content-between p-2">
                         <div class="d-flex justify-content-between align-items-center">
                             <div>
-                                <h3>Al Ain</h3>
+                                <h3>Deer Park</h3>
                                 <p>See more places</p>
                             </div>
                             <div>
@@ -223,7 +223,189 @@
                     <div class="card justify-content-between p-2">
                         <div class="d-flex justify-content-between align-items-center">
                             <div>
-                                <h3>Abu Dhabi</h3>
+                                <h3>Galveston</h3>
+                                <p>See more places</p>
+                            </div>
+                            <div>
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card justify-content-between p-2">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div>
+                                <h3>Houston</h3>
+                                <p>See more places</p>
+                            </div>
+                            <div>
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card justify-content-between p-2">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div>
+                                <h3>Humble</h3>
+                                <p>See more places</p>
+                            </div>
+                            <div>
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card justify-content-between p-2">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div>
+                                <h3>Katy</h3>
+                                <p>See more places</p>
+                            </div>
+                            <div>
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card justify-content-between p-2">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div>
+                                <h3>Kingwood</h3>
+                                <p>See more places</p>
+                            </div>
+                            <div>
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card justify-content-between p-2">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div>
+                                <h3>League City</h3>
+                                <p>See more places</p>
+                            </div>
+                            <div>
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card justify-content-between p-2">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div>
+                                <h3>Missouri City</h3>
+                                <p>See more places</p>
+                            </div>
+                            <div>
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card justify-content-between p-2">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div>
+                                <h3>Pasadena</h3>
+                                <p>See more places</p>
+                            </div>
+                            <div>
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card justify-content-between p-2">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div>
+                                <h3>Pearland</h3>
+                                <p>See more places</p>
+                            </div>
+                            <div>
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card justify-content-between p-2">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div>
+                                <h3>Porter Heights</h3>
+                                <p>See more places</p>
+                            </div>
+                            <div>
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card justify-content-between p-2">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div>
+                                <h3>Richmond</h3>
+                                <p>See more places</p>
+                            </div>
+                            <div>
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card justify-content-between p-2">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div>
+                                <h3>Rosenberg</h3>
+                                <p>See more places</p>
+                            </div>
+                            <div>
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card justify-content-between p-2">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div>
+                                <h3>South Houston</h3>
+                                <p>See more places</p>
+                            </div>
+                            <div>
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card justify-content-between p-2">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div>
+                                <h3>Spring</h3>
+                                <p>See more places</p>
+                            </div>
+                            <div>
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card justify-content-between p-2">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div>
+                                <h3>Sugar Land</h3>
                                 <p>See more places</p>
                             </div>
                             <div>
@@ -260,4 +442,5 @@
             </div>
         </div>
     </div>
+    
 @endsection

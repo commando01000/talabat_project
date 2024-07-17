@@ -9,6 +9,7 @@
             <img style="" class="w-100 object-fit-cover" src="{{ asset('images/bg_landing_new_tlb.jpg') }}"
                 alt="Become A Partner">
         </div>
+
         <div class="header-form position-absolute ps-5 ms-5">
             <h1 class="text-white">Grow your business <br>
                 online with <span class="text-white bold">talabat!</span></h1>
@@ -70,6 +71,7 @@
             </form>
 
         </div>
+
     </div>
     <div id="faq-section">
         @include('Frontend.faqs.index')
