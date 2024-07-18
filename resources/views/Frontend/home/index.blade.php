@@ -87,12 +87,12 @@
                     <div class="gnTvXE cnrhhY d-flex">
                         <div class="w-100 d-flex">
                             <div style="background-color: #ED613D" class="sc-c9721a8-0 plZyw w-100 image-container"><img
-                                    class="w-100" src="{{ asset('images/food.png') }}" alt="Food image"></div>
+                                    class="w-100" src="{{ asset('images/pexels-vince-2569219.jpg') }}" alt="Food image">
+                            </div>
                             <div class="markdown-rich-text-block">
                                 <h3>Cuisine</h3>
                                 {{ Str::limit(
-                                    'Howdy offers something for every craving! Explore a vast selection of food vendors, from classic comfort food to unique culinary creations.
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     Discover trending dishes and hidden gems in your area.',
+                                    'Browse a world of flavor! Explore all types of cuisine, from tacos and barbecue to fine dining and hidden gem restaurants.',
                                     100,
                                 ) }}
                                 <p class="cta-text">Explore</p>
@@ -104,13 +104,12 @@
                     <div class="gnTvXE cnrhhY d-flex">
                         <div class="w-100 d-flex">
                             <div style="background-color: #00B68D" class="sc-c9721a8-0 plZyw w-100 image-container"><img
-                                    class="w-100" src="{{ asset('images/grocery.png') }}" alt="Food image"></div>
+                                    class="w-100 object-fit-cover"
+                                    src="{{ asset('images/pexels-tamanna-rumee-52377920-7957752.jpg') }}"
+                                    alt="Food image"></div>
                             <div class="markdown-rich-text-block">
                                 <h3>Specials</h3>
-                                {{ Str::limit(
-                                    'Don’t miss out on exclusive deals and exciting offers! Check out the "Specials" section to find limited-time promotions from your favorite food trucks and restaurants',
-                                    100,
-                                ) }}
+                                {{ Str::limit('Discover exclusive deals and limited-time offers from your favorite food vendors !', 100) }}
                                 <p class="cta-text">Explore</p>
                             </div>
                         </div>
@@ -120,11 +119,12 @@
                     <div class="gnTvXE cnrhhY d-flex">
                         <div class="w-100 d-flex">
                             <div style="background-color: #E93C55" class="sc-c9721a8-0 plZyw w-100 image-container"><img
-                                    class="w-100" src="{{ asset('images/flowers.png') }}" alt="Food image"></div>
+                                    class="w-100" src="{{ asset('images/pexels-airamdphoto-19588066.jpg') }}"
+                                    alt="Food image"></div>
                             <div class="markdown-rich-text-block">
                                 <h3>Chefs & Trucks</h3>
                                 {{ Str::limit(
-                                    'Go beyond the menu! Follow the culinary journeys of your favorite food trucks and chefs. See their latest creations, special menus, and upcoming events, all in one place.',
+                                    'Find and follow your favorite food trucks and chefs! Stay updated on their latest creations and menus.',
                                     100,
                                 ) }}
                                 <p class="cta-text">Explore</p>
@@ -139,10 +139,7 @@
                                     class="w-100" src="{{ asset('images/grocery.png') }}" alt="Food image"></div>
                             <div class="markdown-rich-text-block">
                                 <h3>Dietary Preferences</h3>
-                                {{ Str::limit(
-                                    'Howdy empowers you to make informed choices. Indicate any dietary restrictions or preferences you may have to find restaurants and dishes that cater to your needs.',
-                                    100,
-                                ) }}
+                                {{ Str::limit('Indicate any dietary needs (vegetarian, vegan, gluten-free) to find suitable options.', 100) }}
                                 <p class="cta-text">Explore</p>
                             </div>
                         </div>
