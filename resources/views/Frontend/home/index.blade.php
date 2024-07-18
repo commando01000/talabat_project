@@ -14,8 +14,8 @@
             data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img style="background-clip: text;color: transparent; max-height: 800px !important;min-height : 800px !important; background-position: center"
-                        src="{{ asset('images/pexels-rdne-5779781.jpg') }}" class="d-block object-fit-cover w-100"
+                    <img style="-webkit-background-clip: text; max-height: 800px !important;min-height : 800px !important; background-position: center"
+                        src="{{ asset('images/pexels-rdne-5779786.jpg') }}" class="d-block object-fit-cover w-100"
                         alt="...">
                 </div>
                 <div class="carousel-item">
@@ -24,8 +24,8 @@
                         alt="...">
                 </div>
                 <div class="carousel-item">
-                    <img style="-webkit-background-clip: text; max-height: 800px !important;min-height : 800px !important; background-position: center"
-                        src="{{ asset('images/pexels-rdne-5779786.jpg') }}" class="d-block object-fit-cover w-100"
+                    <img style="background-clip: text;color: transparent; max-height: 800px !important;min-height : 800px !important; background-position: center"
+                        src="{{ asset('images/pexels-rdne-5779781.jpg') }}" class="d-block object-fit-cover w-100"
                         alt="...">
                 </div>
             </div>
@@ -41,8 +41,10 @@
             </button>
         </div>
         <div class="banner-content position-absolute flex flex-column align-items-center text-center">
-            <h1 style="font-size: 4rem; font-weight: bold;" class="mb-4 text-white" data-testid="banner-title">Order
-                food online in UAE</h1>
+            <h1 style="font-size: 2rem; font-weight: bold;" class="mb-4 text-white" data-testid="banner-title">Howdy Food
+                Express: Your Local Flavor Fix Delivered!</h1>
+            <p style="font-size: 25px; font-weight: bold;" class="mb-2 text-white">Discover Food Trucks, Restaurants & Chefs
+                You'll Love!</p>
             <div style="min-width: 500px !important" data-testid="address-selector-component"
                 class="address-selector-component d-flex flex-row">
                 <div class="sc-21989d75-2 kiLVkU FindLocator w-100 position-relative">
@@ -149,12 +151,12 @@
         </div>
     </div>
 
-    <div id="join_us" class="m-5">
+    <div id="join-us" class="m-5">
         <div class="container">
             <div class="row">
                 <div class="col">
                     <h3 class="text-center">Join us</h3>
-                    <p class="text-center">Be a part of the talabat story.
+                    <p class="text-center">Be a part of the howdy story.
                     </p>
                 </div>
             </div>
@@ -166,13 +168,21 @@
                                     class="w-100" src="{{ asset('images/become-a-partner.webp') }}" alt="Food image">
                             </div>
                             <div class="markdown-rich-text-block">
-                                <h3>Become a partner</h3>
-                                <p>Build your career
+                                <h3>Deliver Deliciousness with Howdy!</h3>
+                                <p>
+                                    1. Reach new customers and grow your business.
+                                    <br>
+                                    2. Simplify online ordering and streamline operations.
+                                    <br>
+                                    3. Gain valuable data and analytics to optimize your menu and marketing.
+                                    <br>
+                                    4. Partner with a platform that champions local food.
                                 </p>
                                 <div>
                                     <button
-                                        class="button-module_button__oNg2G button-module_button-primary__i52py button-module_button-size-sm__cWD2n">Find
-                                        out more</button>
+                                        class="button-module_button__oNg2G button-module_button-primary__i52py button-module_button-size-sm__cWD2n">
+                                        Become a Partner
+                                    </button>
                                 </div>
                             </div>
                         </div>
@@ -182,15 +192,20 @@
                     <div class="gnTvXE cnrhhY d-flex">
                         <div class="w-100 d-flex">
                             <div style="background-color: #ED613D" class="sc-c9721a8-0 plZyw w-100 image-container"><img
-                                    class="w-100" src="{{ asset('images/career-with-us.webp') }}" alt="Food image">
+                                    class="w-100" src="{{ asset('images/pexels-mike-jones-9461489.jpg') }}" alt="Food image">
                             </div>
                             <div class="markdown-rich-text-block">
-                                <h3>Build your career</h3>
-                                <p>Find deals, free delivery, and more from our restaurant partners.</p>
+                                <h3>Hit the Road & Earn with Howdy!</h3>
+                                <p>
+                                    1. Set your own schedule and be your own boss. <br>
+                                    2. Earn competitive pay and enjoy flexible work hours. <br>
+                                    3. Deliver delicious food and connect with your community. <br>
+                                    4. Join a network that supports local businesses and foodies.
+                                </p>
                                 <div>
                                     <button
-                                        class="button-module_button__oNg2G button-module_button-primary__i52py button-module_button-size-sm__cWD2n">Find
-                                        jobs</button>
+                                        class="button-module_button__oNg2G button-module_button-primary__i52py button-module_button-size-sm__cWD2n">
+                                        Become a Driver</button>
                                 </div>
                             </div>
                         </div>
