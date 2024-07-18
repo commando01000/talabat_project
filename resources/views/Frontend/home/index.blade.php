@@ -14,17 +14,17 @@
             data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img style="max-height: 800px !important;min-height : 800px !important; background-position: center"
+                    <img style="background-clip: text;color: transparent; max-height: 800px !important;min-height : 800px !important; background-position: center"
                         src="{{ asset('images/pexels-rdne-5779781.jpg') }}" class="d-block object-fit-cover w-100"
                         alt="...">
                 </div>
                 <div class="carousel-item">
-                    <img style="max-height: 800px !important;min-height : 800px !important; background-position: center"
+                    <img style="-webkit-background-clip: text; max-height: 800px !important;min-height : 800px !important; background-position: center"
                         src="{{ asset('images/pexels-rdne-5779748 (1).jpg') }}" class="d-block object-fit-cover w-100"
                         alt="...">
                 </div>
                 <div class="carousel-item">
-                    <img style="max-height: 800px !important;min-height : 800px !important; background-position: center"
+                    <img style="-webkit-background-clip: text; max-height: 800px !important;min-height : 800px !important; background-position: center"
                         src="{{ asset('images/pexels-rdne-5779786.jpg') }}" class="d-block object-fit-cover w-100"
                         alt="...">
                 </div>
@@ -41,8 +41,10 @@
             </button>
         </div>
         <div class="banner-content position-absolute flex flex-column align-items-center text-center">
-            <h1 class="mb-4 text-white" data-testid="banner-title">Order food online in UAE</h1>
-            <div style="min-width: 500px !important" data-testid="address-selector-component" class="address-selector-component d-flex flex-row">
+            <h1 style="font-size: 4rem; font-weight: bold;" class="mb-4 text-white" data-testid="banner-title">Order
+                food online in UAE</h1>
+            <div style="min-width: 500px !important" data-testid="address-selector-component"
+                class="address-selector-component d-flex flex-row">
                 <div class="sc-21989d75-2 kiLVkU FindLocator w-100 position-relative">
                     <div data-testid="search-box-component"
                         class="form-control w-100 d-flex justify-content-between align-items-center"><img
@@ -90,7 +92,7 @@
                                 <h3>Cuisine</h3>
                                 {{ Str::limit(
                                     'Howdy offers something for every craving! Explore a vast selection of food vendors, from classic comfort food to unique culinary creations.
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     Discover trending dishes and hidden gems in your area.',
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     Discover trending dishes and hidden gems in your area.',
                                     100,
                                 ) }}
                                 <p class="cta-text">Explore</p>
@@ -467,5 +469,5 @@
             </div>
         </div>
     </div>
-    
+
 @endsection
