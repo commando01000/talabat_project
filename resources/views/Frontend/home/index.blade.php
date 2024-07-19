@@ -192,7 +192,8 @@
                     <div class="gnTvXE cnrhhY d-flex">
                         <div class="w-100 d-flex">
                             <div style="background-color: #ED613D" class="sc-c9721a8-0 plZyw w-100 image-container"><img
-                                    class="w-100" src="{{ asset('images/pexels-mike-jones-9461489.jpg') }}" alt="Food image">
+                                    class="w-100" src="{{ asset('images/pexels-mike-jones-9461489.jpg') }}"
+                                    alt="Food image">
                             </div>
                             <div class="markdown-rich-text-block">
                                 <h3>Hit the Road & Earn with Howdy!</h3>
@@ -459,7 +460,7 @@
 
     <div class="w-100 pb-5 text-center">
         <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d231105.66102029695!2d55.193098792815356!3d25.168601496313677!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f43496ad9c645%3A0xbde66e5084295162!2sDubai%20-%20United%20Arab%20Emirates!5e0!3m2!1sen!2seg!4v1721283021296!5m2!1sen!2seg"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d111025.98415692603!2d-95.72169935088431!3d29.58734469231664!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8640de10e11b70cb%3A0x2779e11b2263d8cc!2sSugar%20Land%2C%20TX%2C%20USA!5e0!3m2!1sen!2seg!4v1721427562924!5m2!1sen!2seg"
             width="800" height="450" style="border:0;" allowfullscreen="" loading="lazy"
             referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>
