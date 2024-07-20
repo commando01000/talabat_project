@@ -3,6 +3,14 @@
 @section('title', 'home')
 
 @section('content')
+    {{-- @if ($message = Session::get('success'))
+        <div class="alert alert-success alert-dismissible fade show" role="alert">
+            {{ $message }}
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+    @endif --}}
 
     <div class="header-content position-relative overflow-visible w-100">
         <div style="height: 90vh" class="header-image overflow-hidden">
@@ -19,55 +27,64 @@
                 online - your success story begins here
             </p>
 
+
+            <form class="form" action="{{ route('restaurants.store') }}" method="POST">
+                @csrf
+
             <form class="form shadow-lg">
+
                 <p class="title">Register </p>
                 <p class="message">Ready to grow your business? </p>
                 <div class="flex">
                     <label>
-                        <input required="" placeholder="" type="text" class="input">
+                        <input required="" placeholder="" type="text" name="firstname" class="input">
                         <span>Firstname</span>
+                        @if ($errors->has('firstname'))
+                        <span class="text-danger">{{ $errors->first('firstname') }}</span>
+                    @endif
                     </label>
 
                     <label>
-                        <input required="" placeholder="" type="text" class="input">
+                        <input required="" placeholder="" type="text" name="lastname" class="input">
                         <span>Lastname</span>
+                        @if ($errors->has('lastname'))
+                        <span class="text-danger">{{ $errors->first('lastname') }}</span>
+                    @endif
                     </label>
                 </div>
 
                 <label>
-                    <input required="" placeholder="" type="email" class="input">
+                    <input required="" placeholder="" type="email" name="email" class="input">
                     <span>Email</span>
+                    @if ($errors->has('email'))
+                        <span class="text-danger">{{ $errors->first('email') }}</span>
+                    @endif
                 </label>
 
-                {{-- <label>
-                    <input required="" placeholder="" type="password" class="input">
-                    <span>Password</span>
-                </label>
-                <label>
-                    <input required="" placeholder="" type="password" class="input">
-                    <span>Confirm password</span>
-                </label> --}}
-                {{-- dropdown menu containing Restaurant and shop --}}
+
                 <label class="form-group">
                     <select required class="form-control form-select" name="type" id="type">
                         <option value="none">Business Type</option>
                         <option value="restaurant">Restaurant</option>
                         <option value="shop">Shop</option>
                     </select>
+                    @if ($errors->has('type'))
+                        <span class="text-danger">{{ $errors->first('type') }}</span>
+                    @endif
                 </label>
                 {{-- phone number --}}
                 <label>
-                    <input required="" placeholder="" type="number" class="input">
+                    <input required="" placeholder="" name="phone" type="number" class="input">
                     <span>Phone number</span>
-                </label>
-                {{-- checkbox --}}
-                <label class="form-group">
-                    <input checked="" class="check" type="checkbox">
-                    <span>Get update via WhatsApp</span>
+                    @if ($errors->has('phone'))
+                        <span class="text-danger">{{ $errors->first('phone') }}</span>
+                    @endif
                 </label>
 
+
+
                 <button class="submit">Submit</button>
-                <p class="signin">Already have an acount ? <a href="#">Signin</a> </p>
+
             </form>
 
         </div>

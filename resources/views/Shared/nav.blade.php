@@ -14,7 +14,7 @@
                     <a class="nav-link text-white" href="{{ route('become-a-partner') }}">About Us</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-white" href="{{ route('become-a-partner') }}">Become a partner</a>
+                    <a class="nav-link text-white" href="{{ route('restaurants.create') }}">Become a partner</a>
                 </li>
             </ul>
         </div>
