@@ -161,7 +161,8 @@
                     <div class="gnTvXE cnrhhY d-flex">
                         <div class="w-100 d-flex">
                             <div style="background-color: #ED613D" class="sc-c9721a8-0 plZyw w-100 image-container"><img
-                                    class="w-100" src="{{ asset('images/pexels-reneterp-2504911.jpg') }}" alt="Food image">
+                                    class="w-100" src="{{ asset('images/pexels-reneterp-2504911.jpg') }}"
+                                    alt="Food image">
                             </div>
                             <div class="markdown-rich-text-block">
                                 <h3>Deliver Deliciousness with Howdy!</h3>
@@ -189,8 +190,7 @@
                     <div class="gnTvXE cnrhhY d-flex">
                         <div class="w-100 d-flex">
                             <div style="background-color: #ED613D" class="sc-c9721a8-0 plZyw w-100 image-container"><img
-                                    class="w-100" src="{{ asset('images/delivery.jpg') }}"
-                                    alt="Food image">
+                                    class="w-100" src="{{ asset('images/delivery.jpg') }}" alt="Food image">
                             </div>
                             <div class="markdown-rich-text-block">
                                 <h3>Hit the Road & Earn with Howdy!</h3>

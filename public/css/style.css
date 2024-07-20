@@ -82,6 +82,11 @@
     color: var(--white) !important;
     text-decoration: none;
 }
+
+.nav-link.active {
+    color: var(--primary-hover-color) !important;
+}
+
 /* Navbar End CSS */
 
 /* Banner Section CSS */
