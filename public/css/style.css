@@ -108,12 +108,12 @@
 }
 
 .banner-section .banner-content .btn {
-    background-color: var(--brand);
+    /* background-color: var(--brand); */
 }
 
-.banner-section .banner-content .btn:hover {
+/* .banner-section .banner-content .btn:hover {
     background-color: var(--primary-hover-color);
-}
+} */
 /* End Banner Section CSS */
 
 .kxELPo {
@@ -561,8 +561,12 @@ footer p {
         bottom: 60px;
     }
 
-    #faq {
-        margin-top: 200px !important;
+    #faq-section-partner {
+        margin-top: 900px !important;
+    }
+
+    #faq-section-driver {
+        margin-top: 1350px !important;
     }
 }
 

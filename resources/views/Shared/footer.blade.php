@@ -124,7 +124,7 @@
                         <p>For any support or help you can contact us via our Live Chat</p>
                     </div>
                     <div class="col text-end">
-                        <p>©2024 Talabat.com</p>
+                        <p>©2024 Howdy.com</p>
                     </div>
                 </div>
             </div>

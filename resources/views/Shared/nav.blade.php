@@ -11,10 +11,13 @@
             <ul class="navbar-nav ms-auto mt-2 mt-lg-0">
                 
                 <li class="nav-item">
-                    <a class="nav-link text-white" href="{{ route('become-a-partner') }}">About Us</a>
+                    <a class="nav-link text-white" href="{{ route('about-us') }}">About Us</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link text-white" href="{{ route('restaurants.create') }}">Become a partner</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="{{ route('drivers.create') }}">Become a driver</a>
                 </li>
             </ul>
         </div>
