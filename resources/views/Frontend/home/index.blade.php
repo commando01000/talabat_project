@@ -160,8 +160,8 @@
                 <div class="col-lg-5 col-md-12">
                     <div class="gnTvXE cnrhhY d-flex">
                         <div class="w-100 d-flex">
-                            <div style="background-color: #ED613D" class="sc-c9721a8-0 plZyw w-100 image-container"><img
-                                    class="w-100" src="{{ asset('images/become-a-partner.webp') }}" alt="Food image">
+                            <div style="background-color: #ED613D" class="sc-c9721a8-0 plZyw w-100 object-fit-cover image-container"><img
+                                    class="w-100" src="{{ asset('images/pexels-reneterp-2504911.jpg') }}" alt="Food image">
                             </div>
                             <div class="markdown-rich-text-block">
                                 <h3>Deliver Deliciousness with Howdy!</h3>
@@ -189,7 +189,7 @@
                     <div class="gnTvXE cnrhhY d-flex">
                         <div class="w-100 d-flex">
                             <div style="background-color: #ED613D" class="sc-c9721a8-0 plZyw w-100 image-container"><img
-                                    class="w-100" src="{{ asset('images/pexels-mike-jones-9461489.jpg') }}"
+                                    class="w-100" src="{{ asset('images/delivery.jpg') }}"
                                     alt="Food image">
                             </div>
                             <div class="markdown-rich-text-block">
