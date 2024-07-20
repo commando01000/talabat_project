@@ -57,7 +57,7 @@
                             data-testid="input-search-box-map-first"><img alt="locate me" data-testid="btn-locate-me"
                             src="{{ asset('images/locate-mp.svg') }}" width="45" class="clickable" height="45"></div>
                 </div>
-                <button class="btn ms-3 text-white">Let's go</button>
+                <button class="btn ms-3 btn-dark text-white">Let's go</button>
             </div>
         </div>
     </div>
@@ -70,14 +70,11 @@
 
     <div class="sc-91873ab1-0 dEQnHp w-100 m-auto links-only-container" data-testid="cms-download-apps">
         <div class="links m-auto w-50">
-            <div class="d-flex d-sm-flex links-list justify-content-between"><a data-testid="playstore-link" href="#"
+            <div class="d-flex d-sm-flex links-list justify-content-center"><a data-testid="playstore-link" href="#"
                     target="_blank" rel="noreferrer"><img class="w-100 d-block app-link"
                         src="{{ asset('images/logo_playstore.svg') }}" alt="play store"></a><a data-testid="appstore-link"
                     href="#" target="_blank" rel="noreferrer"><img class="w-100 d-block app-link"
-                        src="{{ asset('images/logo_appstore.svg') }}" alt="apple store"></a><a
-                    data-testid="huaweistore-link" href="#" target="_blank" rel="noreferrer"><img
-                        class="w-100 d-block app-link" src="{{ asset('images/logo_huaweistore1.svg') }}"
-                        alt="Huawei store"></a>
+                        src="{{ asset('images/logo_appstore.svg') }}" alt="apple store"></a>
             </div>
         </div>
     </div>
@@ -106,8 +103,7 @@
                     <div class="gnTvXE cnrhhY d-flex">
                         <div class="w-100 d-flex">
                             <div style="background-color: #00B68D" class="sc-c9721a8-0 plZyw w-100 image-container"><img
-                                    class="w-100 object-fit-cover"
-                                    src="{{ asset('images/pexels-tamanna-rumee-52377920-7957752.jpg') }}"
+                                    class="w-100 object-fit-cover" src="{{ asset('images/howdy_special_photo.jpg') }}"
                                     alt="Food image"></div>
                             <div class="markdown-rich-text-block">
                                 <h3>Specials</h3>
@@ -121,7 +117,7 @@
                     <div class="gnTvXE cnrhhY d-flex">
                         <div class="w-100 d-flex">
                             <div style="background-color: #E93C55" class="sc-c9721a8-0 plZyw w-100 image-container"><img
-                                    class="w-100" src="{{ asset('images/pexels-airamdphoto-19588066.jpg') }}"
+                                    class="w-100" src="{{ asset('images/pexels-introspectivedsgn-12727636.jpg') }}"
                                     alt="Food image"></div>
                             <div class="markdown-rich-text-block">
                                 <h3>Chefs & Trucks</h3>
@@ -137,8 +133,8 @@
                 <div class="col-lg-6 col-md-12">
                     <div class="gnTvXE cnrhhY d-flex">
                         <div class="w-100 d-flex">
-                            <div style="background-color: #3BA1CE" class="sc-c9721a8-0 plZyw w-100 image-container"><img
-                                    class="w-100" src="{{ asset('images/grocery.png') }}" alt="Food image"></div>
+                            <div style="background-color: white" class="sc-c9721a8-0 plZyw w-100 image-container"><img
+                                    class="w-100" src="{{ asset('images/food.png') }}" alt="Food image"></div>
                             <div class="markdown-rich-text-block">
                                 <h3>Dietary Preferences</h3>
                                 {{ Str::limit('Indicate any dietary needs (vegetarian, vegan, gluten-free) to find suitable options.', 100) }}
@@ -179,11 +175,12 @@
                                     4. Partner with a platform that champions local food.
                                 </p>
                                 <div>
-                                    <button
-                                        class="button-module_button__oNg2G button-module_button-primary__i52py button-module_button-size-sm__cWD2n">
+                                    <a class="text-decoration-none button-module_button__oNg2G button-module_button-primary__i52py button-module_button-size-sm__cWD2n"
+                                        href="{{ route('become-a-partner') }}">
                                         Become a Partner
-                                    </button>
+                                    </a>
                                 </div>
+
                             </div>
                         </div>
                     </div>
@@ -204,9 +201,9 @@
                                     4. Join a network that supports local businesses and foodies.
                                 </p>
                                 <div>
-                                    <button
-                                        class="button-module_button__oNg2G button-module_button-primary__i52py button-module_button-size-sm__cWD2n">
-                                        Become a Driver</button>
+                                    <a href="{{ route('become-a-driver') }}"
+                                        class="button-module_button__oNg2G button-module_button-primary__i52py text-decoration-none button-module_button-size-sm__cWD2n">
+                                        Become a Driver</a>
                                 </div>
                             </div>
                         </div>
@@ -247,7 +244,7 @@
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <div class="card justify-content-between p-2">
+                    <div class="card p-2">
                         <div class="d-flex justify-content-between align-items-center">
                             <div>
                                 <h3>Deer Park</h3>
@@ -260,7 +257,7 @@
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <div class="card justify-content-between p-2">
+                    <div class="card p-2">
                         <div class="d-flex justify-content-between align-items-center">
                             <div>
                                 <h3>Galveston</h3>
@@ -273,7 +270,7 @@
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <div class="card justify-content-between p-2">
+                    <div class="card p-2">
                         <div class="d-flex justify-content-between align-items-center">
                             <div>
                                 <h3>Houston</h3>
@@ -286,7 +283,7 @@
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <div class="card justify-content-between p-2">
+                    <div class="card p-2">
                         <div class="d-flex justify-content-between align-items-center">
                             <div>
                                 <h3>Humble</h3>
@@ -299,7 +296,7 @@
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <div class="card justify-content-between p-2">
+                    <div class="card p-2">
                         <div class="d-flex justify-content-between align-items-center">
                             <div>
                                 <h3>Katy</h3>
@@ -312,7 +309,7 @@
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <div class="card justify-content-between p-2">
+                    <div class="card p-2">
                         <div class="d-flex justify-content-between align-items-center">
                             <div>
                                 <h3>Kingwood</h3>
@@ -325,7 +322,7 @@
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <div class="card justify-content-between p-2">
+                    <div class="card p-2">
                         <div class="d-flex justify-content-between align-items-center">
                             <div>
                                 <h3>League City</h3>
@@ -338,7 +335,7 @@
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <div class="card justify-content-between p-2">
+                    <div class="card p-2">
                         <div class="d-flex justify-content-between align-items-center">
                             <div>
                                 <h3>Missouri City</h3>
@@ -351,7 +348,7 @@
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <div class="card justify-content-between p-2">
+                    <div class="card p-2">
                         <div class="d-flex justify-content-between align-items-center">
                             <div>
                                 <h3>Pasadena</h3>
@@ -364,7 +361,7 @@
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <div class="card justify-content-between p-2">
+                    <div class="card p-2">
                         <div class="d-flex justify-content-between align-items-center">
                             <div>
                                 <h3>Pearland</h3>
@@ -377,7 +374,7 @@
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <div class="card justify-content-between p-2">
+                    <div class="card p-2">
                         <div class="d-flex justify-content-between align-items-center">
                             <div>
                                 <h3>Porter Heights</h3>
@@ -390,7 +387,7 @@
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <div class="card justify-content-between p-2">
+                    <div class="card p-2">
                         <div class="d-flex justify-content-between align-items-center">
                             <div>
                                 <h3>Richmond</h3>
@@ -403,7 +400,7 @@
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <div class="card justify-content-between p-2">
+                    <div class="card p-2">
                         <div class="d-flex justify-content-between align-items-center">
                             <div>
                                 <h3>Rosenberg</h3>
@@ -416,7 +413,7 @@
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <div class="card justify-content-between p-2">
+                    <div class="card p-2">
                         <div class="d-flex justify-content-between align-items-center">
                             <div>
                                 <h3>South Houston</h3>
@@ -429,7 +426,7 @@
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <div class="card justify-content-between p-2">
+                    <div class="card p-2">
                         <div class="d-flex justify-content-between align-items-center">
                             <div>
                                 <h3>Spring</h3>
@@ -442,7 +439,7 @@
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <div class="card justify-content-between p-2">
+                    <div class="card p-2">
                         <div class="d-flex justify-content-between align-items-center">
                             <div>
                                 <h3>Sugar Land</h3>
@@ -457,6 +454,7 @@
             </div>
         </div>
     </div>
+
 
     <div class="w-100 pb-5 text-center">
         <iframe
@@ -473,15 +471,13 @@
                         alt="">
                 </div>
                 <div class="col-md-6 pt-4">
-                    <h1>Discover the new talabat app</h1>
+                    <h1>Discover the new howdy app</h1>
                     <p>Get what you need, when you need it.</p>
                     <br>
                     <div class="w-100 d-flex justify-content-around">
                         <a href="#"><img class="w-75" src="{{ asset('images/logo_appstore.svg') }}"
                                 alt=""></a>
                         <a href="#"><img class="w-75" src="{{ asset('images/logo_playstore.svg') }}"
-                                alt=""></a>
-                        <a href="#"><img class="w-75" src="{{ asset('images/logo_huaweistore1.svg') }}"
                                 alt=""></a>
                     </div>
 
