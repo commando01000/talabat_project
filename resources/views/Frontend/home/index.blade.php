@@ -9,12 +9,44 @@
 @section('content')
 
     <div class="banner-section position-relative d-flex align-items-center w-100 overflow-hidden">
-        <div class="banner-left-image">
-            <img style="width: 200px" src="{{ asset('images/banner-img-1.webp') }}" alt="salade banner">
+
+        <div id="carouselExampleAutoplaying" class="carousel position-absolute top-0 start-0 bottom-0 end-0 slide"
+            data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img style="-webkit-background-clip: text; max-height: 800px !important;min-height : 800px !important; background-position: center"
+                        src="{{ asset('images/pexels-rdne-5779786.jpg') }}" class="d-block object-fit-cover w-100"
+                        alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img style="-webkit-background-clip: text; max-height: 800px !important;min-height : 800px !important; background-position: center"
+                        src="{{ asset('images/pexels-rdne-5779748 (1).jpg') }}" class="d-block object-fit-cover w-100"
+                        alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img style="background-clip: text;color: transparent; max-height: 800px !important;min-height : 800px !important; background-position: center"
+                        src="{{ asset('images/pexels-rdne-5779781.jpg') }}" class="d-block object-fit-cover w-100"
+                        alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
         </div>
         <div class="banner-content position-absolute flex flex-column align-items-center text-center">
-            <h1 class="mb-4" data-testid="banner-title">Order food online in UAE</h1>
-            <div data-testid="address-selector-component" class="address-selector-component d-flex flex-row">
+            <h1 style="font-size: 2rem; font-weight: bold;" class="mb-4 text-white" data-testid="banner-title">Howdy Food
+                Express: Your Local Flavor Fix Delivered!</h1>
+            <p style="font-size: 25px; font-weight: bold;" class="mb-2 text-white">Discover Food Trucks, Restaurants & Chefs
+                You'll Love!</p>
+            <div style="min-width: 500px !important" data-testid="address-selector-component"
+                class="address-selector-component d-flex flex-row">
                 <div class="sc-21989d75-2 kiLVkU FindLocator w-100 position-relative">
                     <div data-testid="search-box-component"
                         class="form-control w-100 d-flex justify-content-between align-items-center"><img
@@ -27,9 +59,6 @@
                 </div>
                 <button class="btn ms-3 text-white">Let's go</button>
             </div>
-        </div>
-        <div class="banner-right-image">
-            <img src="{{ asset('images/banner-img-2.webp') }}" alt="salade banner">
         </div>
     </div>
 
@@ -60,12 +89,17 @@
                     <div class="gnTvXE cnrhhY d-flex">
                         <div class="w-100 d-flex">
                             <div style="background-color: #ED613D" class="sc-c9721a8-0 plZyw w-100 image-container"><img
-                                    class="w-100" src="{{ asset('images/food.png') }}" alt="Food image"></div>
+                                    class="w-100" src="{{ asset('images/pexels-vince-2569219.jpg') }}" alt="Food image">
+                            </div>
                             <div class="markdown-rich-text-block">
                                 <h3>Cuisine</h3>
                                 {{ Str::limit(
+<<<<<<< HEAD
                                     'Howdy offers something for every craving! Explore a vast selection of food vendors, from classic comfort food to unique culinary creations.
                                                                                                                                                                                                                                                                                                                                      Discover trending dishes and hidden gems in your area.',
+=======
+                                    'Browse a world of flavor! Explore all types of cuisine, from tacos and barbecue to fine dining and hidden gem restaurants.',
+>>>>>>> f4f4e32bb8b277793608fc904050abc6c3e94485
                                     100,
                                 ) }}
                                 <p class="cta-text">Explore</p>
@@ -77,13 +111,12 @@
                     <div class="gnTvXE cnrhhY d-flex">
                         <div class="w-100 d-flex">
                             <div style="background-color: #00B68D" class="sc-c9721a8-0 plZyw w-100 image-container"><img
-                                    class="w-100" src="{{ asset('images/grocery.png') }}" alt="Food image"></div>
+                                    class="w-100 object-fit-cover"
+                                    src="{{ asset('images/pexels-tamanna-rumee-52377920-7957752.jpg') }}"
+                                    alt="Food image"></div>
                             <div class="markdown-rich-text-block">
                                 <h3>Specials</h3>
-                                {{ Str::limit(
-                                    'Don’t miss out on exclusive deals and exciting offers! Check out the "Specials" section to find limited-time promotions from your favorite food trucks and restaurants',
-                                    100,
-                                ) }}
+                                {{ Str::limit('Discover exclusive deals and limited-time offers from your favorite food vendors !', 100) }}
                                 <p class="cta-text">Explore</p>
                             </div>
                         </div>
@@ -93,11 +126,12 @@
                     <div class="gnTvXE cnrhhY d-flex">
                         <div class="w-100 d-flex">
                             <div style="background-color: #E93C55" class="sc-c9721a8-0 plZyw w-100 image-container"><img
-                                    class="w-100" src="{{ asset('images/flowers.png') }}" alt="Food image"></div>
+                                    class="w-100" src="{{ asset('images/pexels-airamdphoto-19588066.jpg') }}"
+                                    alt="Food image"></div>
                             <div class="markdown-rich-text-block">
                                 <h3>Chefs & Trucks</h3>
                                 {{ Str::limit(
-                                    'Go beyond the menu! Follow the culinary journeys of your favorite food trucks and chefs. See their latest creations, special menus, and upcoming events, all in one place.',
+                                    'Find and follow your favorite food trucks and chefs! Stay updated on their latest creations and menus.',
                                     100,
                                 ) }}
                                 <p class="cta-text">Explore</p>
@@ -112,10 +146,7 @@
                                     class="w-100" src="{{ asset('images/pharmacy.png') }}" alt="Food image"></div>
                             <div class="markdown-rich-text-block">
                                 <h3>Dietary Preferences</h3>
-                                {{ Str::limit(
-                                    'Howdy empowers you to make informed choices. Indicate any dietary restrictions or preferences you may have to find restaurants and dishes that cater to your needs.',
-                                    100,
-                                ) }}
+                                {{ Str::limit('Indicate any dietary needs (vegetarian, vegan, gluten-free) to find suitable options.', 100) }}
                                 <p class="cta-text">Explore</p>
                             </div>
                         </div>
@@ -125,12 +156,12 @@
         </div>
     </div>
 
-    <div id="join_us" class="m-5">
+    <div id="join-us" class="m-5">
         <div class="container">
             <div class="row">
                 <div class="col">
                     <h3 class="text-center">Join us</h3>
-                    <p class="text-center">Be a part of the talabat story.
+                    <p class="text-center">Be a part of the howdy story.
                     </p>
                 </div>
             </div>
@@ -142,14 +173,26 @@
                                     class="w-100" src="{{ asset('images/become-a-partner.webp') }}" alt="Food image">
                             </div>
                             <div class="markdown-rich-text-block">
-                                <h3>Become a partner</h3>
-                                <p>Build your career
+                                <h3>Deliver Deliciousness with Howdy!</h3>
+                                <p>
+                                    1. Reach new customers and grow your business.
+                                    <br>
+                                    2. Simplify online ordering and streamline operations.
+                                    <br>
+                                    3. Gain valuable data and analytics to optimize your menu and marketing.
+                                    <br>
+                                    4. Partner with a platform that champions local food.
                                 </p>
                                 <div>
                                     <button
+<<<<<<< HEAD
                                         class="button-module_button__oNg2G button-module_button-primary__i52py button-module_button-size-sm__cWD2n"
                                         onclick="window.location.href='{{ route('restaurants.create') }}'">
                                         Find out more
+=======
+                                        class="button-module_button__oNg2G button-module_button-primary__i52py button-module_button-size-sm__cWD2n">
+                                        Become a Partner
+>>>>>>> f4f4e32bb8b277793608fc904050abc6c3e94485
                                     </button>
                                 </div>
 
@@ -161,15 +204,20 @@
                     <div class="gnTvXE cnrhhY d-flex">
                         <div class="w-100 d-flex">
                             <div style="background-color: #ED613D" class="sc-c9721a8-0 plZyw w-100 image-container"><img
-                                    class="w-100" src="{{ asset('images/career-with-us.webp') }}" alt="Food image">
+                                    class="w-100" src="{{ asset('images/pexels-mike-jones-9461489.jpg') }}" alt="Food image">
                             </div>
                             <div class="markdown-rich-text-block">
-                                <h3>Build your career</h3>
-                                <p>Find deals, free delivery, and more from our restaurant partners.</p>
+                                <h3>Hit the Road & Earn with Howdy!</h3>
+                                <p>
+                                    1. Set your own schedule and be your own boss. <br>
+                                    2. Earn competitive pay and enjoy flexible work hours. <br>
+                                    3. Deliver delicious food and connect with your community. <br>
+                                    4. Join a network that supports local businesses and foodies.
+                                </p>
                                 <div>
                                     <button
-                                        class="button-module_button__oNg2G button-module_button-primary__i52py button-module_button-size-sm__cWD2n">Find
-                                        jobs</button>
+                                        class="button-module_button__oNg2G button-module_button-primary__i52py button-module_button-size-sm__cWD2n">
+                                        Become a Driver</button>
                                 </div>
                             </div>
                         </div>
@@ -239,6 +287,13 @@
         </div>
     </div>
 
+    <div class="w-100 pb-5 text-center">
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d231105.66102029695!2d55.193098792815356!3d25.168601496313677!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f43496ad9c645%3A0xbde66e5084295162!2sDubai%20-%20United%20Arab%20Emirates!5e0!3m2!1sen!2seg!4v1721283021296!5m2!1sen!2seg"
+            width="800" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+
     <div class="discover-our-new-tablet-app">
         <div class="container">
             <div class="row">
@@ -263,4 +318,8 @@
             </div>
         </div>
     </div>
+<<<<<<< HEAD
+=======
+
+>>>>>>> f4f4e32bb8b277793608fc904050abc6c3e94485
 @endsection
