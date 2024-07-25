@@ -11,13 +11,13 @@
             <ul class="navbar-nav ms-auto mt-2 mt-lg-0">
                 
                 <li class="nav-item">
-                    <a class="nav-link text-white {{Route::is('about-us') ? 'active' : ''}}" href="{{ route('about-us') }}">About Us</a>
+                    <a class="nav-link text-dark {{Route::is('about-us') ? 'active' : ''}}" href="{{ route('about-us') }}">About Us</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-white {{Route::is('restaurants.create') ? 'active' : ''}}" href="{{ route('restaurants.create') }}">Become a partner</a>
+                    <a class="nav-link text-dark {{Route::is('restaurants.create') ? 'active' : ''}}" href="{{ route('restaurants.create') }}">Become a partner</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-white {{Route::is('drivers.create') ? 'active' : ''}}" href="{{ route('drivers.create') }}">Become a driver</a>
+                    <a class="nav-link text-dark {{Route::is('drivers.create') ? 'active' : ''}}" href="{{ route('drivers.create') }}">Become a driver</a>
                 </li>
             </ul>
         </div>

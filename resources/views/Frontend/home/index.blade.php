@@ -467,7 +467,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
-                    <img style="height: 400px" class="" src="{{ asset('images/app_view_iphone_en.png') }}"
+                    <img style="height: 400px" class="object-fit-fill w-100" src="{{ asset('images/photo_2024-07-19_03-30-41.jpg') }}"
                         alt="">
                 </div>
                 <div class="col-md-6 pt-4">

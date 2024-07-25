@@ -64,23 +64,11 @@
                         <p>Popular Areas</p>
                         <div class="row flex-column">
                             <div class="col-md-12">
-                                <a class="text-white" href="#">Abu Hail</a>
+                                <a class="text-white" href="#">Texas</a>
 
                             </div>
                             <div class="col-md-12">
-                                <a class="text-white" href="#">Academic City</a>
-                            </div>
-                            <div class="col-md-12">
-                                <a class="text-white" href="#">Al Awir</a>
-                            </div>
-                            <div class="col-md-12">
-                                <a class="text-white" href="#">Al Bada'a</a>
-                            </div>
-                            <div class="col-md-12">
-                                <a class="text-white" href="#">Al baraha</a>
-                            </div>
-                            <div class="col-md-12">
-                                <a class="text-white" href="#">More Areas</a>
+                                <a class="text-white" href="#">Houston</a>
                             </div>
                         </div>
                     </div>
@@ -88,19 +76,10 @@
                         <p>Cities</p>
                         <div class="row flex-column">
                             <div class="col-md-12">
-                                <a class="text-white" href="#">Dubai</a>
+                                <a class="text-white" href="#">Texas</a>
                             </div>
                             <div class="col-md-12">
-                                <a class="text-white" href="#">Abu Dhabi</a>
-                            </div>
-                            <div class="col-md-12">
-                                <a class="text-white" href="#">Sharjah</a>
-                            </div>
-                            <div class="col-md-12">
-                                <a class="text-white" href="#">Ajman</a>
-                            </div>
-                            <div class="col-md-12">
-                                <a class="text-white" href="#">Al Ain</a>
+                                <a class="text-white" href="#">Houston</a>
                             </div>
                         </div>
                     </div>

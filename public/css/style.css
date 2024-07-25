@@ -71,7 +71,7 @@
 /* Navbar Start CSS */
 
 .navbar {
-    background-color: var(--black) !important;
+    background-color: var(--white) !important;
     color: var(--white) !important;
 }
 .navbar .btn:hover {
